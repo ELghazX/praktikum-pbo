@@ -41,8 +41,7 @@ public class Member {
         this.noTelp = noTelp;
     }
 
-    @Override
-    public String toString() {
+    public String infoMember() {
         return "ID: " + id + ", Nama: " + nama + ", Umur: " + umur + ", NoTelp: " + noTelp;
     }
 }
