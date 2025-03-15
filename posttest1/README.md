@@ -16,11 +16,10 @@ Linux :
 
 Windows? (mungkin) :
 
-cmd:
+cmd shell
+
 ```javac -d out src\**\*.java``` 
+
 kemudian
 
 ```java -cp out App```
-
-
-```javac -d out $(find . -name "*.java") ;  java -cp out App```
