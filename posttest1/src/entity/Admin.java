@@ -1,43 +1,18 @@
 package entity;
 public class Admin {
-    private int id;
-    private String nama;
-    private String email;
-    private String noTelp;
+    private String username;
+    private String password;
 
     public Admin(){}
-
-    public Admin(int id, String nama, String email, String noTelp) {
-        this.id = id;
-        this.nama = nama;
-        this.email = email;
-        this.noTelp = noTelp;
-    }
-    public int getId() {
-        return id;
+    public Admin(String username, String password){
+        this.username = username;
+        this.password = password;
     }
 
-    public String getNoTelp() {
-        return noTelp;
+    public String getUsername() {
+        return username;
     }
-
-    public void setNoTelp(String telp) {
-        this.noTelp = telp;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getNama() {
-        return nama;
-    }
-
-    public void setNama(String nama) {
-        this.nama = nama;
+    public boolean login(String inputPassword){
+        return this.password.equals(inputPassword);
     }
 }

@@ -1,18 +1,19 @@
 package entity;
 public class Member {
-    private int id;
+    private String id;
     private String nama;
-    private String email;
+    private String umur;
     private String noTelp;
 
-    public Member(int id, String nama, String email, String noTelp) {
+    public Member(){};
+    public Member(String id, String nama, String umur, String noTelp) {
         this.id = id;
         this.nama = nama;
-        this.email = email;
+        this.umur = umur;
         this.noTelp = noTelp;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
@@ -20,8 +21,8 @@ public class Member {
         return nama;
     }
 
-    public String getEmail() {
-        return email;
+    public String getUmur(){
+        return umur;
     }
 
     public String getNoTelp() {
@@ -32,8 +33,8 @@ public class Member {
         this.nama = nama;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setEmail(String umur) {
+        this.umur = umur;
     }
 
     public void setNoTelp(String noTelp) {
@@ -42,6 +43,6 @@ public class Member {
 
     @Override
     public String toString() {
-        return "ID: " + id + ", Nama: " + nama + ", Email: " + email + ", NoTelp: " + noTelp;
+        return "ID: " + id + ", Nama: " + nama + ", Umur: " + umur + ", NoTelp: " + noTelp;
     }
 }

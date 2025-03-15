@@ -5,6 +5,7 @@ public class Riwayat {
     private String tanggal;
     private String waktuMasuk;
     private String waktuKeluar;
+    private String aktivitas;
 
     public Riwayat(){}
     public Riwayat(int id, String tanggal, String waktuMasuk, String waktuKeluar) {
@@ -22,23 +23,15 @@ public class Riwayat {
         return tanggal;
     }
 
-    public void setTanggal(String tanggal) {
-        this.tanggal = tanggal;
-    }
-
     public String getWaktuMasuk() {
         return waktuMasuk;
-    }
-
-    public void setWaktuMasuk(String waktuMasuk) {
-        this.waktuMasuk = waktuMasuk;
     }
 
     public String getWaktuKeluar() {
         return waktuKeluar;
     }
 
-    public void setWaktuKeluar(String waktuKeluar) {
-        this.waktuKeluar = waktuKeluar;
+    public String getAktivitas() {
+        return aktivitas;
     }
 }
