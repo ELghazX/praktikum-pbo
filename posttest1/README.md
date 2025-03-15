@@ -8,7 +8,7 @@ Entitas =
 
 Untuk posttest ini yang akan di CRUD adalah entitas Member 
 
-Cara menjalankan path ```praktikum-pbo/posttest1/```
+## Cara menjalankan di path ```praktikum-pbo/posttest1/```
 
 Linux :
 
