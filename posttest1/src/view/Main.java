@@ -21,6 +21,9 @@ public class Main {
     public static void main(String[] args) {
         MemberRepository memberRepo = new MemberRepository();
         MemberService memberService = new MemberService(memberRepo);
+        memberService.registerMember("1", "Ghazali", "20", "081234567890");
+        memberService.registerMember("2" , "Zhongli", "6900", "082468024680");
+        memberService.registerMember("3", "Fu Hua", "100000", "081236455634");
         int option;
         do{
             System.out.println("\n=== MENU MEMBERSHIP ===");
@@ -45,14 +48,28 @@ public class Main {
                         System.out.println(member.infoMember())
                 );
             }else if(option == 3){
-                System.out.println();
+                String updateId = input("Masukkan ID member yang ingin diubah");
+                String newNama = input("Nama Baru");
+                String newUmur = input ("Umur Baru");
+                String newNoTelp = input ("Telp Baru");
+
+                if (memberService.updateMember(updateId, newNama, newUmur, newNoTelp)){
+                    System.out.println("Data Member berhasil diubah");
+                }else{
+                    System.out.println("Member tidak ditemukan");
+                }
             }else if(option == 4){
-                System.out.println();
-            }else if(option == 0){
-                System.out.println();
+                String deleteId = input("Masukkan ID member yang ingin dihapus");
+                if (memberService.deleteMember(deleteId)){
+                    System.out.println("Member berhasil dihapus");
+                }else {
+                    System.out.println("Member tidak ditemukan");
+                }
+            }else if (option == 0) {
+                System.out.println("Keluar dari Program");
+            }else {
+                System.out.println("Opsi tidak valid");
             }
-
-
         } while(option != 0);
 
     }

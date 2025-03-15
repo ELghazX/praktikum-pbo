@@ -16,4 +16,11 @@ public class MemberService {
     public List<Member> getAllMembers(){
         return repository.getAllMembers();
     }
+    public boolean updateMember(String id, String newNama, String newUmur, String newNoTelp){
+        return repository.updateMember(id, newNama, newUmur, newNoTelp);
+    }
+
+    public boolean deleteMember(String id){
+        return repository.deleteMember(id);
+    }
 }

@@ -42,6 +42,6 @@ public class Member {
     }
 
     public String infoMember() {
-        return "ID: " + id + ", Nama: " + nama + ", Umur: " + umur + ", NoTelp: " + noTelp;
+        return "ID: " + id + "| Nama: " + nama + "| Umur: " + umur + "| NoTelp: " + noTelp;
     }
 }

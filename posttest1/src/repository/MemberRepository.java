@@ -29,7 +29,7 @@ public class MemberRepository {
         }
         return false;
     }
-    public boolean deleteMember(String id, String newNama, String newUmur, String newNoTelp){
+    public boolean deleteMember(String id){
         Member member = findById(id);
         if(member!=null){
             members.remove(member);
