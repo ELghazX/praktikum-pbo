@@ -1,11 +1,24 @@
 package entity;
 
 public class Pembayaran {
-    int id;
+    private int id;
     private String tanggal;
     private String jumlah;
     private String metode;
     private String status;
+
+    public Pembayaran(){}
+    public Pembayaran(int id, String tanggal, String jumlah, String metode, String status) {
+        this.id = id;
+        this.tanggal = tanggal;
+        this.jumlah = jumlah;
+        this.metode = metode;
+        this.status = status;
+    }
+
+    public int getId() {
+        return id;
+    }
 
     public String getTanggal() {
         return tanggal;

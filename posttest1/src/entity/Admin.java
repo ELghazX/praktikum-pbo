@@ -1,17 +1,28 @@
 package entity;
-
 public class Admin {
-    int id;
+    private int id;
     private String nama;
     private String email;
-    private String telp;
+    private String noTelp;
 
-    public String getTelp() {
-        return telp;
+    public Admin(){}
+
+    public Admin(int id, String nama, String email, String noTelp) {
+        this.id = id;
+        this.nama = nama;
+        this.email = email;
+        this.noTelp = noTelp;
+    }
+    public int getId() {
+        return id;
     }
 
-    public void setTelp(String telp) {
-        this.telp = telp;
+    public String getNoTelp() {
+        return noTelp;
+    }
+
+    public void setNoTelp(String telp) {
+        this.noTelp = telp;
     }
 
     public String getEmail() {

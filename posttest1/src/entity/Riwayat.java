@@ -1,10 +1,22 @@
 package entity;
 
 public class Riwayat {
-    int id;
+    private int id;
     private String tanggal;
     private String waktuMasuk;
     private String waktuKeluar;
+
+    public Riwayat(){}
+    public Riwayat(int id, String tanggal, String waktuMasuk, String waktuKeluar) {
+        this.id = id;
+        this.tanggal = tanggal;
+        this.waktuMasuk = waktuMasuk;
+        this.waktuKeluar = waktuKeluar;
+    }
+
+    public int getId() {
+        return id;
+    }
 
     public String getTanggal() {
         return tanggal;
