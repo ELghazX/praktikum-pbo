@@ -8,11 +8,11 @@ import java.util.Scanner;
 public class Main {
     public static Scanner sc = new Scanner(System.in);
     public static String input(String info){
-        System.out.println(info + " : ");
+        System.out.print(info + " : ");
         return sc.nextLine();
     }
     public static int inputInt(String info){
-        System.out.println(info + " : ");
+        System.out.print(info + " : ");
         int value = sc.nextInt();
         sc.nextLine();
         return value;
