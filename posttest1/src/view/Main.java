@@ -28,7 +28,7 @@ public class Main {
         do{
             System.out.println("\n=== MENU MEMBERSHIP ===");
             System.out.println("1. Tambah Member");
-            System.out.println("2. Baca Member");
+            System.out.println("2. Tampilkan Semua Member");
             System.out.println("3. Perbarui Member");
             System.out.println("4. Hapus Member");
             System.out.println("0. Keluar Program");
