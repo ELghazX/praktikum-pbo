@@ -10,11 +10,11 @@ Untuk posttest ini yang akan di CRUD adalah entitas Member
 
 ## Cara menjalankan di path ```praktikum-pbo/posttest1/```
 
-Linux :
+### Linux :
 
 ```javac -d out $(find . -name "*.java") && java -cp out App```
 
-Docker :
+### Docker :
 
 ```docker build -t java-app .```
 
@@ -24,7 +24,7 @@ Kemudian
 ```docker run --rm -it java-app```
 
 
-Windows? (mungkin) :
+### Windows? (mungkin) :
 
 cmd shell
 
