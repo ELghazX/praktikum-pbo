@@ -10,6 +10,8 @@ Untuk posttest ini yang akan di CRUD adalah entitas Member
 
 ## Cara menjalankan di path ```praktikum-pbo/posttest1/```
 
+pertama pastikan path nya di praktikum-pbo/posttest1/
+
 ### Linux :
 
 ```javac -d out $(find . -name "*.java") && java -cp out App```
