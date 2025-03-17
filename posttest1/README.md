@@ -14,6 +14,16 @@ Linux :
 
 ```javac -d out $(find . -name "*.java") && java -cp out App```
 
+Docker :
+
+```docker build -t java-app .```
+
+Kemudian
+
+
+```docker run --rm -it java-app```
+
+
 Windows? (mungkin) :
 
 cmd shell
