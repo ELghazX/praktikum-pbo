@@ -10,7 +10,7 @@ Untuk posttest ini yang akan di CRUD adalah entitas Member
 
 ## Cara menjalankan di path ```praktikum-pbo/posttest1/```
 
-pertama pastikan path nya di praktikum-pbo/posttest1/
+pertama pastikan path nya di ```praktikum-pbo/posttest1/```
 
 ### Linux :
 
@@ -18,12 +18,12 @@ pertama pastikan path nya di praktikum-pbo/posttest1/
 
 ### Docker :
 
-```docker build -t java-app .```
+```docker build -t ghazali-041 .```
 
 Kemudian
 
 
-```docker run --rm -it java-app```
+```docker run -rm -it ghazali-041```
 
 
 ### Windows? (mungkin) :
