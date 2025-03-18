@@ -23,7 +23,7 @@ pertama pastikan path nya di ```praktikum-pbo/posttest1/```
 Kemudian
 
 
-```docker run -rm -it ghazali-041```
+```docker run -it ghazali-041```
 
 
 ### Windows? (mungkin) :
