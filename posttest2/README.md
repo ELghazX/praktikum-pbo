@@ -23,14 +23,19 @@ cd posttest2
 ```
 ## menjalankan dengan Maven
 pastikan maven terinstall dulu ya....
+kemudian pastikan punya setidaknya JDK versi 21
 
 setelah berada di direktori praktikum-pbo/posttest2
 jalankan perintah di shell 
+
+jaga jaga reload dependencies dari pom.xml
+```shell
+mvn clean install
+```
+kemudian compile menjadi jar dengan plugin assembly
 ```shell
 mvn clean package assembly:single
 ```
-untuk build dengan plugin assembly
-
 kemudian jalankan program dengan
 ```shell
 java -jar target/posttest2-1.0-SNAPSHOT-jar-with-dependencies.jar
