@@ -1,5 +1,5 @@
 # Pengumpulan Posttest Praktikum OOP
-## tiap folder posttest punya README.md untuk kerterangan
+## Tiap folder posttest punya README.md untuk kerterangan pengerjaan
 
 ## Navigasi :
 - [Posttest1](posttest1)
