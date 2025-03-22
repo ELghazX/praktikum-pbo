@@ -33,6 +33,9 @@ jaga jaga reload dependencies dari pom.xml
 mvn clean install
 ```
 kemudian compile menjadi jar dengan plugin assembly
+
+
+
 ```shell
 mvn clean package assembly:single
 ```
