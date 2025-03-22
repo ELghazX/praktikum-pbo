@@ -46,5 +46,5 @@ docker build -t posttest2-ghazali .
 ```
 lalu jalankan container dengan
 ```shell
-docker run -rm posttest2-ghazali
+docker run -it posttest2-ghazali
 ```
