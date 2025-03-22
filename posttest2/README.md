@@ -10,7 +10,7 @@ INSTRUKSI
 
 ## Cara menjalankan program
 
-Posttest ini dibuat menggunaakn build automation Apache Maven
+Posttest ini dibuat menggunakan build automation Apache Maven
 
 Cara menjalankan program
 - Clone repository ini
@@ -23,12 +23,14 @@ cd posttest2
 ```
 ## menjalankan dengan Maven
 pastikan maven terinstall dulu ya....
+
 setelah berada di direktori praktikum-pbo/posttest2
 jalankan perintah di shell 
 ```shell
 mvn clean package assembly:single
 ```
 untuk build dengan plugin assembly
+
 kemudian jalankan program dengan
 ```shell
 java -jar posttest2-1.0-SNAPSHOT-jar-with-dependencies.jar
@@ -36,6 +38,8 @@ java -jar posttest2-1.0-SNAPSHOT-jar-with-dependencies.jar
 
 ## menjalankan dengan Docker
 pastikan dah ada Docker dan docker server nya nyala
+kemudian masuk ke praktikum-pbo/posttest2/
+
 build docker image di praktikum-pbo/posttest2 dengan
 ```shell
 docker build -t posttest2-ghazali .
