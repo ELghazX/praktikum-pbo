@@ -23,8 +23,12 @@ cd posttest2
 ```
 ## menjalankan dengan Maven
 pastikan maven terinstall dulu ya....
-kemudian pastikan punya setidaknya JDK versi 21
-
+kemudian pastikan punya setidaknya JDK versi 21 (kalau error silahkan ubah versi menyesuaikan di [pom.xml](pom.xml))
+```shell
+󰣇 elghaz Sedang Ngodonf on ~ ........................................
+ javac --version
+javac 23.0.2
+```
 setelah berada di direktori praktikum-pbo/posttest2
 jalankan perintah di shell 
 
