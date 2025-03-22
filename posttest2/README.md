@@ -33,7 +33,7 @@ untuk build dengan plugin assembly
 
 kemudian jalankan program dengan
 ```shell
-java -jar posttest2-1.0-SNAPSHOT-jar-with-dependencies.jar
+java -jar target/posttest2-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
 
 ## menjalankan dengan Docker
