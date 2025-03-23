@@ -1,7 +1,11 @@
-FROM openjdk:17-jdk-slim
+FROM openjdk:21-jdk-slim
 
 WORKDIR /app
 
-COPY target/posttest2-1.0-SNAPSHOT-jar-with-dependencies.jar /app/app.jar
+COPY pom.xml .
+COPY src ./src
 
-CMD ["java", "-jar", "app.jar"]
+RUN apt-get update && apt-get install -y maven && \
+    mvn clean package assembly:single
+
+CMD ["java", "-jar", "target/posttest2-1.0-SNAPSHOT-jar-with-dependencies.jar"]
