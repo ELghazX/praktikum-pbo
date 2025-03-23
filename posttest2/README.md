@@ -1,12 +1,19 @@
 # Posttest 2
 
+<!--toc:start-->
+- [Posttest 2](#posttest-2)
+  - [MOHON BACA README](#mohon-baca-readme)
+  - [Cara menjalankan program](#cara-menjalankan-program)
+  - [menjalankan dengan Maven](#menjalankan-dengan-maven)
+  - [menjalankan dengan Docker](#menjalankan-dengan-docker)
+<!--toc:end-->
+
 ## MOHON BACA README
 
 INSTRUKSI
 
 1. Lanjutkan project posttest sebelumnya,  buat folder baru Posttest2 dan copy file posttest sebelumnya ke folder baru (jika memang tidak ubah judul).
-2. Terapkan Konsep Encapsulation, minimal terdapat 2 penerapan dari 4 jenis Access Modifier
-3. Terapkan metode Setter dan Getter
+2. Terapkan Konsep Encapsulation, minimal terdapat 2 penerapan dari 4 jenis Access Modifier 3. Terapkan metode Setter dan Getter
 4. Dikumpul melalui github, diclassroom hanya link repository terkait
 
 ## Cara menjalankan program
