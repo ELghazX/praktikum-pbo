@@ -1,2 +1,10 @@
 manajemen/membership/gym/App.class
-manajemen/membership/gym/Person.class
+manajemen/membership/gym/service/MemberService.class
+manajemen/membership/gym/entity/Admin.class
+manajemen/membership/gym/entity/Member.class
+manajemen/membership/gym/util/InputUtil.class
+manajemen/membership/gym/entity/Pembayaran.class
+manajemen/membership/gym/entity/Fasilitas.class
+manajemen/membership/gym/repository/MemberRepository.class
+manajemen/membership/gym/entity/Riwayat.class
+manajemen/membership/gym/view/MemberView.class

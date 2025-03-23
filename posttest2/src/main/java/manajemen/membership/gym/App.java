@@ -12,6 +12,6 @@ public class App {
         MemberService memberService = new MemberService(memberRepo);
         MemberView memberView = new MemberView(memberService);
 
-        memberView.showMember();
+        memberView.showMainMenu();
     }
 }
