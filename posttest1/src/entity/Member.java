@@ -1,11 +1,14 @@
 package entity;
+
 public class Member {
     private String id;
     private String nama;
     private String umur;
     private String noTelp;
 
-    public Member(){};
+    public Member() {
+    };
+
     public Member(String id, String nama, String umur, String noTelp) {
         this.id = id;
         this.nama = nama;
@@ -21,7 +24,7 @@ public class Member {
         return nama;
     }
 
-    public String getUmur(){
+    public String getUmur() {
         return umur;
     }
 
