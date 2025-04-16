@@ -1,6 +1,9 @@
 package manajemen.membership.gym.service;
 
 import manajemen.membership.gym.entity.Member;
+import manajemen.membership.gym.entity.PremiumMember;
+import manajemen.membership.gym.entity.RegulerMember;
+import manajemen.membership.gym.entity.StudentMember;
 import manajemen.membership.gym.repository.MemberRepository;
 import java.util.List;
 
